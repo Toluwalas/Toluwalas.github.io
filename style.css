@@ -1,0 +1,180 @@
+* {box-sizing: border-box;
+padding: 0px;
+margin: 0px;
+max-width: 100%;
+height: auto;
+}
+
+.start { background-color: rgb(241, 103, 95);
+padding: 100px 300px;
+}
+
+.starting {
+  background-color: white;
+padding: 15px;
+  border-radius: 15px;
+}
+
+.one {text-align: center;
+  padding: 10px;
+  position: relative;
+}
+
+.one .close {
+  float: right;
+}
+
+.close a { text-decoration: none;
+color: dodgerblue;}
+
+.close a:hover {text-decoration: double underline;
+color: blue;}
+
+.one img { border-radius: 50%;
+  width: 40%;
+  height: auto;
+}
+
+.two .ip1 label {display: inline-block;
+padding-top: 5px;
+font-family: 'Times New Roman';
+font-weight: bold;
+font-size:20px;}
+
+.two i {border: none;
+border-bottom: 1px solid rgb(174 23 16);
+width: 20px;
+height: 25px;}
+
+.ip1 input {width: 500px;
+height: 40px;
+border: none;
+border-bottom: 1px solid rgb(174 23 16);
+transition: 0.3s ease;
+direction: right;
+  padding: 10px;
+  font-family: Monospace;
+  margin-bottom: 10px;}
+  
+.ip1 input:focus {
+color: black;
+border: none;
+border-bottom: 1px solid black;
+transition: 0.2s ease;
+  padding: 10px;
+  font-family: lucida;
+  outline:none;
+}
+  
+ .ip2 label {display: inline-block;
+padding-top: 5px;
+font-family: 'Times New Roman';
+font-weight: bold;
+font-size:20px;}
+
+.ip2 input {width: 500px;
+height: 40px;
+border: none;
+border-bottom: 1px solid rgb(174 23 16);
+transition: 0.3s ease;
+direction: right;
+  padding: 10px;
+  font-family: Monospace;
+  margin-bottom: 10px;}
+  
+.ip2 input:focus {
+border-bottom: 1px solid black;
+background-color: #999999;
+color: white;
+transition: 0.2s ease;
+  padding: 10px;
+  font-family: Georgia;
+  outline: none;
+}
+  
+  .bt { text-align: center;
+    padding-bottom: 2px; 
+    padding-top: 5px;
+  }
+  
+  .bt input {width: 40%;
+  height: 30px;
+  border: none;
+  border-radius: 8px;
+    color: rgb(174 50 50);
+    font-weight: bold;
+    font-family: Verdana;
+  }
+  
+   .bt input:hover {width: 50%;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 10px;
+    color: rgb(174 70 60);
+    font-weight: bold;
+    font-family: Verdana;
+    outline: none;
+  }
+
+  .check span {font-family: courier; font-weight: bold;
+    margin-left: 5px;
+  }
+  
+  .check {padding-bottom: 10px;
+    padding-left: 5px;}
+    
+    .stop button {border: 1px solid;
+    border-radius: 10px;
+    padding: 5px 10px;
+      font-weight: bold;
+    font-family: Verdana;
+    color: #9998;
+    }
+    
+      .stop button:hover {border: 1px solid black;
+      position: relative;
+    border-radius: 10px;
+    padding: 5px 10px;
+      font-weight: bold;
+    font-family: Verdana;
+    color: #9999;}
+    
+  .stop a{ color: blue;
+    text-decoration: none;
+    float: right;
+  }
+  
+ .stop a:hover,visited { 
+   color:pink;
+    text-decoration: underline;
+    text-decoration-color: red;
+    text-decoration-style: dotted;
+ margin-left: 20px;
+  }
+  
+  .account a { text-decoration: none;
+  background-color:white;
+    color: tomato;
+    padding: 5px 20px;
+    border-radius: 10px;}
+    .account {margin:20px 30px 0px 0px;}
+    
+    .account a:hover {
+      background-color:white;
+    color: tomato;
+    border: 2px solid rgb(194 50 16);
+    outline: none;}
+    
+ @media screen and (max-width:900px) {.start {padding: 50px 100px;}
+ .ip1 input {width: 400px;}
+.ip1 input:focus {width: 400px;}
+.ip2 input {width: 400px;}
+.ip2 input:focus {width: 400px;}
+ }
+  
+ @media screen and (max-width:500px) { .start {padding:20px;}
+ .ip1 input {width: 200px;}
+.ip1 input:focus {width: 200px;}
+.ip2 input {width: 200px;}
+.ip2 input:focus {width: 200px;}
+ }
